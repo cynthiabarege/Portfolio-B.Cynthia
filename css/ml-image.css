@@ -1,0 +1,54 @@
+body{
+	background: white;
+	margin: 0;
+	padding: 0;
+}
+#corps{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 100px;
+	margin-left: 100px;
+	
+}
+/* ----------------------------menu */
+
+.menu{
+	display: flex;
+	justify-content: flex-end;	
+	background-color: #FC3B2D;
+}
+.button1{
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	margin: 5px;
+	font-size: 20px;
+	background-color: #FC3B2D;
+	color: white;	
+}
+.button1:hover{
+	color: #FC3B2D;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+	background: white;
+	
+}
+/* -------------------------------------footer */
+footer{
+	background: url("https://c.wallhere.com/photos/05/f6/colors_chihuly_chihully_colorful_green_orange_dark_glass-847599.jpg!d");
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.ml{
+	color: floralwhite;
+}
+
+
+
+
+
+/* --------------------------------corps */
+h1{
+	text-align: center;
+}

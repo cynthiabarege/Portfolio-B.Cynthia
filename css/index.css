@@ -1,0 +1,367 @@
+body, html, header, main, h1, h4 {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h4 {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: helvetica;
+	color: white;
+}
+body, html{
+	width: 100%;
+	height: 100%;
+}
+
+#wrapper{
+	background: url("https://c.wallhere.com/photos/05/f6/colors_chihuly_chihully_colorful_green_orange_dark_glass-847599.jpg!d");
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+.contenu{
+	background-color: black;
+	margin: auto;
+	width: 600px;
+	height: 120px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.9);
+	border-radius: 5px;
+	text-align:center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	line-height: 50px;
+}
+
+/* ------------------------------------Menu */
+
+.menu{
+	display: flex;
+	justify-content: flex-end;	
+	background-color: #FC3B2D;
+}
+.button1{
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	margin: 5px;
+	font-size: 20px;
+	background-color: #FC3B2D;
+	color: white;	
+}
+.button1:hover{
+	color: #FC3B2D;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+	background: white;
+	cursor: pointer;
+}
+
+/* ---------------------------- barre reseaux sociaux */
+
+#reseauxsociaux{
+	position: fixed;
+	top: 200px;
+	left: 1310px;
+	z-index: 100;
+}
+.imgfb, .imglkdin, .imgmessage{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+.barre{
+	width: 45px;
+	height: 110px;
+	background-color: #FC3B2D;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.8) ;
+	border-radius: 3px;
+}
+
+/* ----------------------------------------------A propos de moi */
+#titleformation{
+	font-size: 35px;
+	color: white;
+	font-style: bold;
+	letter-spacing: 2px;
+	font-weight: 600;
+	text-align: center;
+	background: #FC3B2D;
+	height: 50px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+#aproposbox{
+	background-color: black;
+	display: flex;
+}
+.apropos-flex{
+	display: flex;
+	padding-left: 20px;
+	padding-right: 20px;
+	align-items: center;
+}
+.texteapropos+button{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.descriptif{
+	line-height: 35px;
+	font-weight: lighter;
+	font-size: 20px;
+	color: white;
+	font-family: helvetica;
+	padding: 15px; 
+}
+.photo{
+	width: 55%;
+}
+.dicton{
+	font-size: 18px;}
+.buttoncv{
+	background: url("https://c.wallhere.com/photos/05/f6/colors_chihuly_chihully_colorful_green_orange_dark_glass-847599.jpg!d");
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	border-radius: 50px;
+	color: white;
+	font-size: 25px;
+	width: 190x;
+	height: 55px;
+}
+.buttoncv:hover{
+	color: #FC3B2D;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+	text-shadow: 0 0 1px black;
+}
+
+
+/* ---------------------------------------------carroussel experiences */
+#flex-box-carroussel{ 
+	/* taille images 600x300 */
+    display: flex;
+    height: 300px;
+	justify-content: center;
+	background: url("https://c.wallhere.com/photos/05/f6/colors_chihuly_chihully_colorful_green_orange_dark_glass-847599.jpg!d");
+	overflow: hidden;
+}
+    
+.carroussel{
+    width: 600px;
+    overflow: visible;
+}
+
+.images{
+    display: flex;
+    animation-duration: 50s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes mesImages{
+    0%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(-600px);
+    }
+    40%{
+        transform: translateX(-1200px);
+    }
+    60%{
+        transform: translateX(-1800px);
+    }
+    80%{
+        transform: translateX(-2400px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+/* -----------------------------------------------------Softskills */
+
+.softskillstitre{
+	font-size: 35px;
+	color: #FC3B2D;
+	letter-spacing: 5px;
+	padding: 20px;
+}
+#softskillsbox{
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+	border-style: dotted;
+	border-color: #FC3B2D;
+	align-items: center;
+	text-align: center;
+}
+
+
+.skimg{
+	width: 23%;
+}
+
+/* --------------------------------------------formation */
+strong, .title {
+	font-family: helvetica;
+}
+
+.grid-box-formations{
+	display: grid;
+	grid-template-columns: repeat(3, 230px); 
+	grid-template-rows: repeat(2, 230px);
+	gap: 20px;
+	justify-content: center;
+	margin-bottom: 20px;
+	
+}
+/* ----------------------titre pour formations et centres d'intérêts*/ 
+.title{
+	font-size: 35px;
+	color: white;
+	font-style: bold;
+	letter-spacing: 2px;
+	font-weight: 600;
+	text-align: center;
+	background: #FC3B2D;
+	padding : 25px;
+}
+
+.formation-title{
+	margin-top: -10px;
+	height: 45px;
+}
+/* ----------------------------------rectangles formation */
+
+.imgcard-recto{
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+}
+
+.box-formation{
+	box-shadow: 0 0 2px #031F73; 
+	border: solid 2px #E6F0F1;
+	border-radius: 10px;
+	text-align: center;
+	color: #000000;
+	overflow: hidden;
+	font-size: 13px;
+}
+.box-formation:hover{
+	color: #031F73;
+	background: radial-gradient(#B0E0E6 10%, white 90%);
+	box-shadow: 0 0 10px lightgray; 
+	font-size: 15px;
+	line-height: 15px;
+	display: grid;
+	grid-template-columns: repeat(1, 235px); 
+	grid-template-rows: repeat(2, 120px);
+	gap: 2px;
+	justify-content: center;
+	transition: 0.2s ease;
+	color: #000000;
+}
+/* ------------contenu formation */
+.iconinfo{
+	width: 10%;
+	cursor: pointer;
+}
+.date{
+	color: black;
+}
+/* ------------------------------------------------------Atouts */
+#final-section{
+	display: flex;
+	flex-direction: column;
+	background: black;
+
+}
+.interet{
+	margin-top: 0px ;
+	height: 14px;
+	padding-top: 2px;
+
+}
+
+.atouts{
+	display: flex;
+	flex-direction: row;
+	padding: 11px;
+	color: white;
+	align-items: center;
+	text-shadow: 0 0 1.5px black;
+}
+h2{
+	text-align: center;
+}
+
+.flex2{
+	padding-left : 11px;
+	padding-right: 11px;
+}
+
+.img-atts{
+	width: 25%;
+	height: 160px;
+	border-radius: 50%;
+	border: solid 1px white;
+}
+.passions{
+	font-size: 18px;
+}
+
+/* ------------------------------------------bouton contact */
+
+.contactbutton{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.button2{
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	background-color: white;
+	color: #FC3B2D;	
+	border-radius: 80px;
+}
+.button2:hover{
+	background-color: black;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+	cursor: pointer;
+}
+
+/* -----------------------------------------footer */
+
+footer{
+	background: url("https://c.wallhere.com/photos/05/f6/colors_chihuly_chihully_colorful_green_orange_dark_glass-847599.jpg!d");
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.link{
+	color: floralwhite;
+	cursor: pointer;
+}
+
+

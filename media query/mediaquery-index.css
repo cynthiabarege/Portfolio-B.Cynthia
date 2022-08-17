@@ -1,0 +1,194 @@
+@media screen and (max-width: 480px){
+	/* wrapper contenu */
+	.contenu{
+		width: 17em;
+		height: 18em;
+	}
+	.menu{
+		text-align: center;
+	}
+	/* barre des réseaux sociaux */
+	#reseauxsociaux{
+		top: 50px;
+		left: 0px;
+		z-index: 1000;
+	}
+	.barre{
+		width: 35px;
+	}
+	/* section à propos */
+	.apropos-flex{
+		display: flex;
+		flex-direction: column;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	.descriptif{
+		font-size: 1.3em;
+		line-height: 1.5em;
+	}
+	.buttoncv{
+		font-size: 1em;
+	}
+	/* carroussel section */
+	#flex-box-carroussel{
+		background: #FC3B2D;	
+	}
+	.carroussel{
+		width: 265px;
+		border: none;
+	}
+	/* softskills section */
+	#softskillsbox{
+		display: flex;
+		flex-direction: column;
+	}
+	.icones{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.skimg{
+		width: 70%;
+	}
+	/* formation section */
+	.grid-box-formations{
+		display: flex;
+		flex-direction: column;
+		width: 16em;
+		height: 70em;
+		margin: auto;
+	}
+	.box-formation{
+		display: grid;
+		grid-template-columns: repeat(2, 9em); 
+		grid-template-rows: repeat(1, 40em);
+		gap: 1em;
+		font-size: 13px;
+		transition: none;
+		text-align: center;
+		justify-content: center;
+	}
+	.box-formation:hover{
+		visibility: hidden;
+		transition: none;
+		background: none;
+		box-shadow: none;
+		line-height: none;
+		width: 16em;
+		height: 70em;
+	}
+	.imgcard-recto{
+		width: 10em;
+		height: 12em;
+	}
+	.iconinfo{
+		visibility: hidden;
+	}
+	/* atouts section */
+	.atouts{
+		display: flex;
+		flex-direction : column;
+	}
+	.img-atts{
+		width: 90%;
+		border-radius: 0;
+	}
+	/* footer */
+	footer{
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 960px){
+	/* wrapper contenu */
+	.contenu{
+		width: 25em;
+		height: 18em;
+	}
+	.menu{
+		text-align: center;
+	}
+		/*  barre des réseaux sociaux */
+	#reseauxsociaux{
+		position: fixed;
+		top: 20em;
+		left: 0em;
+	}
+	.barre{
+		width: 35px;
+	}
+	/* section à propos */
+	.photo{
+		width: 20em;
+		margin-top: -5em;
+		margin-bottom: -8em;
+	}
+	.apropos-flex{
+		display: flex;
+		flex-direction: column;
+		padding-left: 4em;
+		padding-right: 4em;
+		text-align: center;
+	}
+	/* carroussel section */
+	.carroussel{
+		width: 100%;
+	}
+	
+	/* softskills section */
+	#softskillsbox{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.skimg{
+		width: 18em;
+	}
+	/* formation section */
+	.title{
+		font-size: 2em;
+	}
+	.grid-box-formations{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.box-formation{
+		width: 20em;
+		height: 15em;
+		
+	}
+	.box-formation:hover{
+		width: 20em;
+		height: 16em;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	/* atouts section */
+	.atouts{
+		display: flex;
+		flex-direction : column;
+	}
+	
+}
+@media screen and (min-width: 961px) and (max-width: 1024px){
+	/* barre réseaux sociaux */
+	#reseauxsociaux{
+		position: fixed;
+		top: 30em;
+		left: 0em;
+	}
+	.barre{
+		width: 35px;
+	}
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+	#reseauxsociaux{
+		position: fixed;
+		top: 20em;
+		left: 0em;
+	}
+}

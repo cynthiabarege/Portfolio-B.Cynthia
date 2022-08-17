@@ -1,0 +1,112 @@
+body{
+	background-color:  floralwhite;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+/* -----------------------Menu */
+
+.menu{
+	display: flex;
+	justify-content: flex-end;	
+	background-color: #FC3B2D;
+	margin-left: 0px;
+}
+.button1{
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	margin: 5px;
+	font-size: 20px;
+	background-color: #FC3B2D;
+	color: white;	
+}
+.button1:hover{
+	background-color: white;
+	color: #FC3B2D;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+	
+}
+
+
+
+/* --------------------------------------- */
+#boxcontact{
+    display: flex;
+    flex-direction: row;
+	justify-content: center;
+	margin-bottom: 71px;
+}
+
+
+/* ----------------------------------------------- */
+.formulaire, .contact{
+	display: flex;
+	align-items: center;	
+	/* text-align: center; */
+	line-height: 40px;
+}
+
+
+.listbox{
+	width: auto;
+	height: auto;
+	box-shadow: box-shadow: 0 0 5px rgba(0,0,0,0.9);
+	color: black;
+}
+.ligne{
+	display: flex;
+	flex-direction: column;
+}
+
+label, legend{
+	font-size: 15px;
+	font-family: helvetica;
+	letter-spacing: 2px;
+	
+}
+
+.submitbutton{
+	background-color: #FC3B2D;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 50px;
+	color: white;
+	font-size: 20px;
+}
+.submitbutton:hover{
+	background-color: white;
+	color: #FC3B2D;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+}
+/* --------------------- Contact */
+
+.contactimg{
+    width: 290px;
+    height: 290px;
+}
+.formulaireimg{
+      width: 250px;
+}
+.imgfb, .imglkd {
+    width: 125px
+}
+.contact{
+    display: flex;
+    flex-direction: row;  
+}
+
+/* ---------------------------------footer */
+
+
+footer{
+	background: url("https://c.wallhere.com/photos/05/f6/colors_chihuly_chihully_colorful_green_orange_dark_glass-847599.jpg!d");
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.ml{
+	color: floralwhite;
+}
